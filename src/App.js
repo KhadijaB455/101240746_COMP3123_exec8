@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -18,6 +18,22 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>
+  );
+}
+
+export default App;
+*/
+
+import React from 'react';
+import DataEntryForm from './components/DataEntryForm';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Data Entry Form</h1>
+      <DataEntryForm />
     </div>
   );
 }
